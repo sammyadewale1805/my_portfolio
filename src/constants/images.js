@@ -23,8 +23,23 @@ import nitjLogo from '../assets/education/nitj.png';
 import asmLogo from '../assets/education/asm.png';
 import mspLogo from '../assets/education/msp.png';
 
+// Create a named object first (this fixes the ESLint warning)
+const images = {
+    profile, 
+    backend, 
+    frontend, 
+    nitj, 
+    gaminggeeks, 
+    soorme, 
+    youtube, 
+    soormeLogo, 
+    urlShortner, 
+    socialmedia, 
+    googleForms, 
+    portfolioGen, 
+    nitjLogo, 
+    asmLogo, 
+    mspLogo
+};
 
-
-export default {
-    profile, backend, frontend, nitj, gaminggeeks, soorme, youtube, soormeLogo, urlShortner, socialmedia, googleForms, portfolioGen, nitjLogo, asmLogo, mspLogo
-}
+export default images;
